@@ -33,7 +33,7 @@ backend-study/
 ├── presentations/           # 발표 정리 폴더
 │   ├── 202x/xx/xx/
 │   │   ├── member1
-|   |   |      ├── IssueNumber-answer.md
+|   |   |      ├── IssueNumber-question.md
 |   |   |      ├── IssueNumber-code.md
 │   │   └── member2
 │   └── week02/
