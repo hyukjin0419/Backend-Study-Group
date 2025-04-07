@@ -1,0 +1,24 @@
+name: "\u2753 질문 등록"
+description: "스터디 중 궁금한 내용을 자유롭게 등록하세요."
+title: "[질문] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: "📚 질문 배경"
+      description: "언제, 왜 궁금해졌는지 간단히 설명해주세요."
+      placeholder: "예: save() 했는데 DB에 반영되지 않아 flush()가 궁금해졌습니다."
+  - type: textarea
+    id: details
+    attributes:
+      label: "❓ 구체적인 질문"
+      description: "정확히 무엇이 궁금한가요? 핵심을 자세히 적어주세요."
+      placeholder: |
+        - flush()와 commit()은 무슨 차이가 있나요?
+        - flush()를 수동으로 써야 할 때가 있나요?
+  - type: input
+    id: author
+    attributes:
+      label: "🙋 질문자 GitHub ID"
+      placeholder: "@your-id"
